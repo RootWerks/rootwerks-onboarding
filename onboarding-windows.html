@@ -5,10 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Windows Onboarding</title>
-
-    <!-- Correct relative path based on location inside /onboarding -->
     <link rel="stylesheet" href="styles.css">
-
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f6f0dd;
+            color: #222;
+        }
+        h1 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .icon-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .icon-container img {
+            width: 32px;
+            height: 32px;
+        }
+        .label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .note {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .instructions {
+            max-width: 600px;
+            margin-top: 30px;
+        }
+        .instructions h2 {
+            font-size: 1.3em;
+        }
+        .instructions ol {
+            padding-left: 20px;
+        }
+    </style>
 </head>
 <body>
 
@@ -25,11 +64,13 @@
     <div class="instructions">
         <h2>Instructions for Windows Users</h2>
         <ol>
+            
             <li>Click the OpenAI icon above to sign up for a free OpenAI account.</li>
             <li>After signing up, return here to continue onboarding your assistant.</li>
             <li>There is no official Windows-native AI assistant at this time.</li>
             <li>You can use the ChatGPT web app or install the Windows desktop app if available.</li>
             <li>For quick access, pin ChatGPT to your taskbar or create a shortcut on your desktop.</li>
+        
         </ol>
         <p>We'll update this page as new Windows integrations become available.</p>
     </div>

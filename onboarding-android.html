@@ -1,28 +1,77 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Onboarding – Android</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Onboarding</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f6f0dd;
+            color: #222;
+        }
+        h1 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .icon-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .icon-container img {
+            width: 32px;
+            height: 32px;
+        }
+        .label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .note {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .instructions {
+            max-width: 600px;
+            margin-top: 30px;
+        }
+        .instructions h2 {
+            font-size: 1.3em;
+        }
+        .instructions ol {
+            padding-left: 20px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Android Onboarding</h1>
 
-    <p><strong>Step 1: OpenAI Setup</strong><br>
-    To begin, you’ll need a free OpenAI account. This allows Sailor to integrate with your personal assistant.</p>
+    <h1>Choose your preferred AI</h1>
 
-    <p>Once signed in, leave the tab open or return here to continue with setup. You’ll use this account to activate Sailor’s features on your device.</p>
+    <div class="icon-container">
+        <a href="https://auth.openai.com/create-account" target="_blank">
+            <img src="images/openai.jpg" alt="OpenAI Icon">
+        </a>
+        <div class="label">OpenAI</div>
+        <div class="note">More to come</div>
+    </div>
 
-    <p>Tap the icon below to sign up or sign in. The link will open in a new tab:</p>
+    <div class="instructions">
+        <h2>Instructions for Android Users</h2>
+        <ol>
+            
+            <li>Tap the OpenAI icon above to sign up for a free OpenAI account.</li>
+            <li>Install the official ChatGPT app from the Google Play Store.</li>
+            <li>Sign in using your new OpenAI account and begin using the assistant.</li>
+        
+        </ol>
+        <p>Additional Android integrations will appear here as they release.</p>
+    </div>
 
-    <a href="https://platform.openai.com/signup" target="_blank">
-      <img src="https://cdn.prod.website-files.com/681e4a9c991e148a6ffb337a/68265647777b47fe66f81e5c_openai.jpg" alt="OpenAI Logo" class="icon">
-    </a>
-
-    <a class="continue-button" href="onboarding-final.html">Continue</a>
-  </div>
 </body>
 </html>
