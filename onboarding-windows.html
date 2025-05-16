@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sailor Onboarding | Windows</title>
+  <style>
+    body {
+      background-color: #e9e4d4;
+      color: #2e2e2e;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      color: #3b3a30;
+      text-align: center;
+    }
+    h2 {
+      font-size: 1.5rem;
+      color: #4b4739;
+      margin-top: 2rem;
+    }
+    p {
+      font-size: 1.1rem;
+      color: #4d4a40;
+      line-height: 1.6;
+    }
+    ol {
+      margin-top: 1rem;
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 1rem;
+    }
+    .continue-btn {
+      background-color: #8b6f47;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      margin-top: 2rem;
+      cursor: pointer;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .continue-btn:hover {
+      background-color: #a48254;
+    }
+    .icon-link-center {
+      display: flex;
+      justify-content: center;
+      margin-top: 0.5rem;
+    }
+    .icon-link-center img {
+      width: 28px;
+      height: 28px;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #6b6554;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome, Windows User</h1>
+    <p>Your system has been recognized as Windows. Let's get Sailor integrated as your assistant.</p>
+
+    <h2>Step 1: OpenAI Setup</h2>
+    <p>To begin, you’ll need a free OpenAI account. This allows Sailor to integrate with your personal assistant.</p>
+    <p>
+      Tap the icon below to sign up or sign in. The link will open in a new tab:
+    </p>
+    <div class="icon-link-center">
+      <a href="https://auth.openai.com/create-account" target="_blank">
+        <img src="https://cdn.prod.website-files.com/681e4a9c991e148a6ffb337a/68265647777b47fe66f81e5c_openai.jpg" alt="OpenAI Icon" />
+      </a>
+    </div>
+
+    <h2>Step 2: Assign Sailor to Windows Assistant</h2>
+    <ol>
+      <li>Open your <strong>Windows Settings</strong> and go to <strong>Apps > Default apps</strong>.</li>
+      <li>Scroll to find the default app for “Digital Assistant” or “Voice Assistant.”</li>
+      <li>If available, select Sailor (or your OpenAI-connected browser) as the default assistant.</li>
+      <li>Optional: Use a hotkey or custom shortcut (e.g. Ctrl + Shift + S) to launch Sailor quickly from your desktop.</li>
+    </ol>
+
+    <button class="continue-btn" onclick="location.href='onboarding-final.html'">Continue</button>
+    <footer>RootWerks.net &copy; 2025</footer>
+  </div>
+</body>
+</html>
